@@ -1,9 +1,9 @@
 # demo_react
 
-test demo commit
+# 页签关闭或是刷新监听
 
-# 2022 年 11 月 9 日 21 点 50 分
+react 中判断当前操作是刷新还是关闭页面
 
-xxxx
-xxxx
-asd
+方法：通过 **beforeunload** 和 **unload** 之间的执行时间判断刷新或是关闭页面
+
+如果是通过监听 **beforeunload** 实现监听状态操作并且拦截操作给弹窗提示的话，无法判断中间的操作是刷新还是关闭页面
